@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Poromechanics
+  # description:
+  keywords: ["porous media", "poromechanics", "poroelasticity", "geomechanics", "soil mechanics", "rock mechanics", "consolidation"]
+  authors:
+    - name: Vikas Sharma
+      affiliations:
+        - id: ku
+          institution: Kyoto University, Japan
+          department: Graduate School of Agriculture
+      orcid: 0000-0002-5701-7108
+      email: vickysharma0812@gmail.com
+      url: https://vikas.easifem.com
+      github: https://github.com/vickysharma0812
+  github: https://github.com/vickysharma0812/lectures
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  license: CC-BY-4.0
+  open_access: true
+site:
+  template: book-theme
+  options:
+  #   favicon: favicon.ico
+    logo: logo.svg
